@@ -1,0 +1,326 @@
+[
+  {
+    "country": "argentina",
+    "index": 1,
+    "title": "El conventillo (El velorio)",
+    "author": "Guillermo Facio Hebequer",
+    "year": "c. 1930",
+    "source": "https://www.bellasartes.gob.ar/coleccion/obra/1305/",
+    "image": "../assets/img/galeria/argentina_01_el_conventillo.webp"
+  },
+  {
+    "country": "argentina",
+    "index": 2,
+    "title": "La niña sentada",
+    "author": "Augusto Schiavoni",
+    "year": "1929",
+    "source": "https://www.bellasartes.gob.ar/coleccion/obra/8652/",
+    "image": "../assets/img/galeria/argentina_02_la_nina_sentada.webp"
+  },
+  {
+    "country": "argentina",
+    "index": 3,
+    "title": "Señorita con abanico verde",
+    "author": "Emilio Pettoruti",
+    "year": "1925",
+    "source": "https://buenosaires.gob.ar/sites/default/files/2023-08/04-Colecci%C3%B3n%20digital%20de%20los%20a%C3%B1os%201920%20a%201930.pdf",
+    "image": "../assets/img/galeria/argentina_03_1920_1930.webp"
+  },
+  {
+    "country": "argentina",
+    "index": 4,
+    "title": "Retrato del pintor Victorica",
+    "author": "Alfredo Guttero",
+    "year": "1929",
+    "source": "https://castagninomacro.org/page/obra/id/1050/Guttero%2C-Alfredo/Retrato-del-pintor-Victorica",
+    "image": "../assets/img/galeria/argentina_04_retrato_del_pintor_victorica.webp"
+  },
+  {
+    "country": "argentina",
+    "index": 5,
+    "title": "Silo",
+    "author": "Alfredo Guttero",
+    "year": "1928",
+    "source": "https://www.bellasartes.gob.ar/coleccion/obra/7718/",
+    "image": "../assets/img/galeria/argentina_05_paisaje_con_silos.webp"
+  },
+  {
+    "country": "argentina",
+    "index": 6,
+    "title": "Los cuatro",
+    "author": "Xul Solar",
+    "year": "1921",
+    "source": "https://coleccion.malba.org.ar/Detail/objects/789",
+    "image": "../assets/img/galeria/argentina_06_1920_1930.webp"
+  },
+  {
+    "country": "brasil",
+    "index": 1,
+    "title": "A Cuca",
+    "author": "Tarsila do Amaral",
+    "year": "1924",
+    "source": "https://www.museedegrenoble.fr/oeuvre/5/1922-a-cuca.htm",
+    "image": "../assets/img/galeria/brasil_01_1920_1930.webp"
+  },
+  {
+    "country": "brasil",
+    "index": 2,
+    "title": "Bailarina",
+    "author": "Victor Brecheret",
+    "year": "1920",
+    "source": "https://commons.wikimedia.org/wiki/File:Bailarina_de_Victor_Brecheret_(1920).jpg",
+    "image": "../assets/img/galeria/brasil_02_bailarina.webp"
+  },
+  {
+    "country": "brasil",
+    "index": 3,
+    "title": "A Negra",
+    "author": "Tarsila do Amaral",
+    "year": "1923",
+    "source": "https://www.tarsiladoamaral.com.br/",
+    "image": "../assets/img/galeria/brasil_03_a_negra.webp"
+  },
+  {
+    "country": "brasil",
+    "index": 4,
+    "title": "Samba",
+    "author": "Emiliano Di Cavalcanti",
+    "year": "1925",
+    "source": "https://www2.olimpiadadehistoria.com.br/5-olimpiada/documentos/documento/103",
+    "image": "../assets/img/galeria/brasil_04_samba.webp"
+  },
+  {
+    "country": "brasil",
+    "index": 5,
+    "title": "O Mamoeiro",
+    "author": "Tarsila do Amaral",
+    "year": "1925",
+    "source": "https://www.guggenheim-bilbao.eus/en/press-room/images/tarsila-do-amaral-painting-modern-brazil",
+    "image": "../assets/img/galeria/brasil_05_1920_1930.webp"
+  },
+  {
+    "country": "brasil",
+    "index": 6,
+    "title": "Abaporu",
+    "author": "Tarsila do Amaral",
+    "year": "1928",
+    "source": "https://coleccion.malba.org.ar/abaporu/",
+    "image": "../assets/img/galeria/brasil_06_abaporu.webp"
+  },
+  {
+    "country": "chile",
+    "index": 1,
+    "title": "Naturaleza muerta",
+    "author": "Luis Vargas Rosas",
+    "year": "1924",
+    "source": "https://www.memoriachilena.gob.cl/602/w3-article-121489.html",
+    "image": "../assets/img/galeria/chile_01_1920_1930.webp"
+  },
+  {
+    "country": "chile",
+    "index": 2,
+    "title": "La Grande Chaumière",
+    "author": "Ana Cortés",
+    "year": "1926",
+    "source": "https://www.surdoc.cl/registro/2-4888",
+    "image": "../assets/img/galeria/chile_02_1920_1930.webp"
+  },
+  {
+    "country": "chile",
+    "index": 3,
+    "title": "El bote blanco",
+    "author": "Laureano Guevara",
+    "year": "1927",
+    "source": "https://www.surdoc.cl/registro/2-397",
+    "image": "../assets/img/galeria/chile_03_1920_1930.webp"
+  },
+  {
+    "country": "chile",
+    "index": 4,
+    "title": "Dos desnudos",
+    "author": "Henriette Petit",
+    "year": "1925",
+    "source": "https://www.mnba.gob.cl/sites/www.mnba.gob.cl/files/images/articles-79406_archivo_01.pdf",
+    "image": "../assets/img/galeria/chile_04_1920_1930.webp"
+  },
+  {
+    "country": "chile",
+    "index": 5,
+    "title": "La agricultura",
+    "author": "Laureano Guevara",
+    "year": "1929",
+    "source": "https://www.surdoc.cl/registro/7-259",
+    "image": "../assets/img/galeria/chile_05_1920_1930.webp"
+  },
+  {
+    "country": "chile",
+    "index": 6,
+    "title": "La viajera",
+    "author": "Camilo Mori",
+    "year": "1928",
+    "source": "https://www.surdoc.cl/registro/2-379",
+    "image": "../assets/img/galeria/chile_06_la_viajera.webp"
+  },
+  {
+    "country": "cuba",
+    "index": 1,
+    "title": "Puentes Grandes",
+    "author": "Amelia Peláez",
+    "year": "c. 1926",
+    "source": "https://secure.cernudaarte.com/cgi-local/fullsize.cgi?pid=7173_1&id=7173&status=2",
+    "image": "../assets/img/galeria/cuba_01_1920_1930.webp"
+  },
+  {
+    "country": "cuba",
+    "index": 2,
+    "title": "Perfiles",
+    "author": "Amelia Peláez",
+    "year": "1928",
+    "source": "https://secure.cernudaarte.com/cgi-local/fullsize.cgi?pid=7601_1&id=7601&status=2",
+    "image": "../assets/img/galeria/cuba_02_1920_1930.webp"
+  },
+  {
+    "country": "cuba",
+    "index": 3,
+    "title": "Guajiros y plátanos",
+    "author": "Antonio Gattorno",
+    "year": "1927",
+    "source": "https://secure.cernudaarte.com/cgi-local/fullsize.cgi?pid=7570_1&id=7570&status=2",
+    "image": "../assets/img/galeria/cuba_03_1920_1930.webp"
+  },
+  {
+    "country": "cuba",
+    "index": 4,
+    "title": "La fuente",
+    "author": "Amelia Peláez",
+    "year": "1930",
+    "source": "https://secure.cernudaarte.com/cgi-local/fullsize.cgi?pid=7604_1&id=7604&status=2",
+    "image": "../assets/img/galeria/cuba_04_1920_1930.webp"
+  },
+  {
+    "country": "cuba",
+    "index": 5,
+    "title": "Los gemelos",
+    "author": "Amelia Peláez",
+    "year": "1929",
+    "source": "https://secure.cernudaarte.com/cgi-local/fullsize.cgi?pid=7612_1&id=7612&status=2",
+    "image": "../assets/img/galeria/cuba_05_1920_1930.webp"
+  },
+  {
+    "country": "cuba",
+    "index": 6,
+    "title": "Gitana tropical",
+    "author": "Víctor Manuel García",
+    "year": "1929",
+    "source": "https://www.bellasartes.co.cu/obra/victor-manuel-garcia-gitana-tropical-1929",
+    "image": "../assets/img/galeria/cuba_06_1920_1930.webp"
+  },
+  {
+    "country": "mexico",
+    "index": 1,
+    "title": "Baile en Tehuantepec",
+    "author": "Diego Rivera",
+    "year": "1928",
+    "source": "https://coleccion.malba.org.ar/Detail/objects/2587",
+    "image": "../assets/img/galeria/mexico_01_baile_en_tehuantepec.webp"
+  },
+  {
+    "country": "mexico",
+    "index": 2,
+    "title": "La trinchera",
+    "author": "José Clemente Orozco",
+    "year": "1926",
+    "source": "https://www.sanildefonso.org.mx/museo-digital/zoom/trinchera.html",
+    "image": "../assets/img/galeria/mexico_02_1920_1930.webp"
+  },
+  {
+    "country": "mexico",
+    "index": 3,
+    "title": "Autorretrato con traje de terciopelo",
+    "author": "Frida Kahlo",
+    "year": "1926",
+    "source": "https://artsandculture.google.com/asset/autorretrato-con-traje-de-terciopelo/9QHUrLhK3UEXqw?hl=es",
+    "image": "../assets/img/galeria/mexico_03_frida_autorretrato_traje_terciopelo.webp"
+  },
+  {
+    "country": "mexico",
+    "index": 4,
+    "title": "Prometeo",
+    "author": "José Clemente Orozco",
+    "year": "1930",
+    "source": "https://www.pomona.edu/museum/collections/jos%C3%A9-clemente-orozcos-prometheus",
+    "image": "../assets/img/galeria/mexico_04_prometeo.webp"
+  },
+  {
+    "country": "mexico",
+    "index": 5,
+    "title": "Indias en día de mercado",
+    "author": "Francisco Díaz de León",
+    "year": "1922",
+    "source": "https://museoblaisten.com/Obra/1854/Indias-en-d-a-de-mercado",
+    "image": "../assets/img/galeria/mexico_05_indias_en_dia_de_mercado.webp"
+  },
+  {
+    "country": "mexico",
+    "index": 6,
+    "title": "Naturaleza muerta con pie",
+    "author": "Rufino Tamayo",
+    "year": "1928",
+    "source": "https://museoblaisten.com/Obra/2600/Naturaleza-muerta-con-pie",
+    "image": "../assets/img/galeria/mexico_06_naturaleza_muerta_con_pie.webp"
+  },
+  {
+    "country": "peru",
+    "index": 1,
+    "title": "Cruz Velacuy-Cuzco",
+    "author": "José Sabogal",
+    "year": "1925",
+    "source": "https://www.bellasartes.gob.ar/coleccion/obra/6008/",
+    "image": "../assets/img/galeria/peru_01_sabogal.webp"
+  },
+  {
+    "country": "peru",
+    "index": 2,
+    "title": "India Huanca",
+    "author": "José Sabogal",
+    "year": "1930",
+    "source": "https://www.oas.org/artsoftheamericas/jose-sabogal",
+    "image": "../assets/img/galeria/peru_02_1920_1930.webp"
+  },
+  {
+    "country": "peru",
+    "index": 3,
+    "title": "Amancaes",
+    "author": "José Sabogal",
+    "year": "1923",
+    "source": "https://artsandculture.google.com/asset/amancaes-jos%C3%A9-sabogal/sAEyS7HNOU6bVw?hl=es",
+    "image": "../assets/img/galeria/peru_03_1920_1930.webp"
+  },
+  {
+    "country": "peru",
+    "index": 4,
+    "title": "Hombres en pascana",
+    "author": "Jorge Vinatea Reinoso",
+    "year": "c. 1925–1928",
+    "source": "https://lotes.subasta.mali.pe/online-auctions/mali--museo-de-arte-de-lima/hombres-en-pascana-1925---1928-4997287",
+    "image": "../assets/img/galeria/peru_04_1920_1930.webp"
+  },
+  {
+    "country": "peru",
+    "index": 5,
+    "title": "Santusa",
+    "author": "Julia Codesido",
+    "year": "c. 1927–1929",
+    "source": "https://artsandculture.google.com/asset/santusa-0092/tQFoQ9VnDgFRqA",
+    "image": "../assets/img/galeria/peru_05_1920_1930.webp"
+  },
+  {
+    "country": "peru",
+    "index": 6,
+    "title": "Olga",
+    "author": "Julia Codesido",
+    "year": "c. 1927–1929",
+    "source": "https://artsandculture.google.com/asset/olga-0051/cQGXCyuJtygEhw",
+    "image": "../assets/img/galeria/peru_06_1920_1930.webp"
+  }
+]

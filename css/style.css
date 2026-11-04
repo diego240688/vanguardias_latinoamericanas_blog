@@ -1,0 +1,722 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap");
+
+:root {
+    --ink: #24333a;
+    --muted: #627077;
+    --teal: #185f5f;
+    --teal-dark: #103f42;
+    --cream: #f5f1e8;
+    --paper: #fbfaf7;
+    --line: #d9dfdc;
+    --accent: #d99a27;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "DM Sans", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: min(1180px, 92%);
+    margin: auto;
+}
+
+/* =========================
+        HEADER / NAV
+========================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(251, 250, 247, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+}
+
+.nav {
+    min-height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.brand-mark {
+    font-size: 28px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #e8eee9;
+    display: grid;
+    place-items: center;
+}
+
+.brand small {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--muted);
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+    font-size: 0.9rem;
+}
+
+nav a {
+    padding: 27px 0 23px;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--teal);
+    border-color: var(--teal);
+}
+
+/* =========================
+    HERO PRINCIPAL
+========================= */
+
+.hero {
+    background:
+        linear-gradient(
+            110deg,
+            #f7f3ea 0%,
+            #f7f3ea 47%,
+            #e8e9df 47%,
+            #e8e9df 100%
+        );
+    min-height: 540px;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 45px;
+    padding: 60px 0;
+}
+
+/* =========================
+    TIPOGRAFÍA
+========================= */
+
+.eyebrow {
+    color: var(--teal);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-size: 0.78rem;
+}
+
+h1 {
+    font-size: clamp(2.6rem, 6vw, 5rem);
+    line-height: 1.02;
+    margin: 12px 0 10px;
+    letter-spacing: -0.04em;
+}
+
+h2 {
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    line-height: 1.15;
+    margin: 8px 0 14px;
+}
+
+h3 {
+    margin: 8px 0;
+    font-size: 1.15rem;
+}
+
+.hero p,
+.lead {
+    font-size: 1.05rem;
+    color: #536168;
+    max-width: 560px;
+}
+
+/* =========================
+    BOTONES
+========================= */
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 21px;
+    border-radius: 5px;
+    background: var(--teal);
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn.outline {
+    background: transparent;
+    color: var(--teal);
+    border: 1px solid var(--teal);
+}
+
+/* =========================
+    ARTE / LOGO
+========================= */
+
+.art {
+    width: 100%;
+    min-height: 400px;
+    position: relative;
+}
+
+.art-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.art-card-logo {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+}
+/* =========================
+    SECCIONES
+========================= */
+
+.section {
+    padding: 80px 0;
+}
+
+.section.alt {
+    background: #f1f3ef;
+}
+
+.center {
+    text-align: center;
+}
+
+/* =========================
+   TARJETAS DE PAÍSES
+========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.country-card {
+    background: #fff;
+    border: 1px solid #e2e5e1;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 190px;
+    box-shadow: 0 6px 18px rgba(20, 35, 36, 0.06);
+    transition: 0.25s;
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 30px rgba(20, 35, 36, 0.12);
+}
+
+.flag {
+    font-size: 3rem;
+}
+
+.country-card p,
+.country-card small {
+    color: var(--muted);
+    font-size: 0.8rem;
+}
+
+.arrow {
+    font-size: 1.25rem;
+    color: var(--teal);
+    font-weight: 700;
+}
+
+/* =========================
+   DISCIPLINAS
+========================= */
+
+.disciplines {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+    margin-top: 35px;
+}
+
+.discipline {
+    text-align: center;
+    padding: 20px;
+}
+
+.icon {
+    font-size: 3.8rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   FEATURES / PRODUCCIONES
+========================= */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.feature {
+    background: #fff;
+    border: 1px solid var(--line);
+    padding: 28px;
+    border-radius: 10px;
+    min-height: 220px;
+}
+
+.feature .tag {
+    font-size: 0.75rem;
+    color: var(--teal);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+/* =========================
+   VALORES DEL PROYECTO
+========================= */
+
+.values {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    border-top: 1px solid var(--line);
+    padding-top: 35px;
+}
+
+.value {
+    padding: 10px 15px;
+    border-right: 1px solid var(--line);
+}
+
+.value:last-child {
+    border: 0;
+}
+
+.value strong {
+    display: block;
+}
+
+/* =========================
+   PRODUCCIONES
+========================= */
+
+.production-placeholder {
+    border: 2px dashed var(--line);
+    border-radius: 8px;
+    min-height: 140px;
+    margin: 14px 0;
+    display: grid;
+    place-items: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+    background: #f8f7f4;
+}
+
+.production-meta {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: 4px 0;
+}
+
+.production-meta strong {
+    color: var(--ink);
+}
+
+/* =========================
+   PÁGINAS DE PAÍSES
+========================= */
+
+.country-hero {
+    padding: 80px 0;
+    background: linear-gradient(
+        135deg,
+        var(--cream),
+        #e6ece8
+    );
+}
+
+.country-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.country-flag {
+    font-size: 9rem;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   CONTENIDO DE PAÍSES
+========================= */
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 35px;
+}
+
+.panel {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   LÍNEA DE TIEMPO
+========================= */
+
+.timeline {
+    border-left: 3px solid var(--teal);
+    padding-left: 22px;
+}
+
+.timeline-item {
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background: var(--accent);
+    border-radius: 50%;
+    position: absolute;
+    left: -30px;
+    top: 7px;
+}
+
+/* =========================
+   ARTISTAS / REFERENTES
+========================= */
+
+.people {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.person {
+    padding: 18px;
+    background: #f2f4f1;
+    border-radius: 8px;
+}
+
+/* =========================
+   TEMAS CLAVE
+========================= */
+
+.topic-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.topic-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.topic-list li::before {
+    content: "✦ ";
+    color: var(--accent);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: var(--teal-dark);
+    color: #eef4f1;
+    padding: 45px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.quote {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+}
+
+.newsletter {
+    display: flex;
+}
+
+.newsletter input {
+    flex: 1;
+    padding: 14px;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+}
+
+.newsletter button {
+    border: 0;
+    background: var(--accent);
+    padding: 0 18px;
+    font-weight: 700;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 30px;
+    padding-top: 18px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #b9cbc7;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 950px) {
+
+    nav {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero-grid,
+    .country-layout,
+    .content-grid,
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .art {
+        min-height: 320px;
+    }
+
+    .art-card-logo {
+        width: 360px;
+        height: 360px;
+    }
+
+    .disciplines,
+    .values {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================
+   MÓVIL
+========================= */
+
+@media (max-width: 600px) {
+
+    .hero-grid {
+        padding: 45px 0;
+    }
+
+    .art-card-logo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .section {
+        padding: 55px 0;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .disciplines,
+    .values,
+    .people {
+        grid-template-columns: 1fr;
+    }
+
+    .country-flag {
+        width: 190px;
+        height: 190px;
+        font-size: 6rem;
+    }
+
+    .value {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+    }
+}
+.production-placeholder video {
+    width: 100%;
+    height: 100%;
+    max-height: 220px;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    display: block;
+    border-radius: 6px;
+}
+.panel-alumnos {
+    margin-top: 20px;
+}
+
+.team-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+/* =========================
+    MENÚ HAMBURGUESA Y GALERÍA
+========================= */
+.menu-toggle{display:none;width:44px;height:44px;padding:8px;border:1px solid var(--line);border-radius:6px;background:#fff;cursor:pointer}
+.menu-toggle span{display:block;height:2px;margin:5px 0;background:var(--teal);transition:.25s}
+.flag img{width:100%;max-width:90px;height:55px;object-fit:cover;border-radius:6px;display:block;margin:0 auto}
+.country-flag img{width:100%;height:100%;object-fit:cover;border-radius:50%}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.gallery-item{min-height:190px;border:2px dashed var(--line);border-radius:10px;background:#f8f7f4}
+
+@media (max-width:950px){
+    .menu-toggle{display:block}
+    header .nav{position:relative}
+    header nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;gap:0;padding:8px 4%;background:rgba(251,250,247,.98);border-bottom:1px solid var(--line);box-shadow:0 12px 24px rgba(20,35,36,.08)}
+    header nav.open{display:flex}
+    header nav a,header nav a:hover,header nav a.active{padding:12px 0;border-bottom:1px solid var(--line)}
+    header nav a:last-child{border-bottom:0}
+    .menu-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .menu-toggle.open span:nth-child(2){opacity:0}
+    .menu-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    .gallery-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media (max-width:600px){
+    .gallery-grid{grid-template-columns:1fr}
+    .gallery-item{min-height:180px}
+}
+
+
+/* Retratos compactos dentro de las tarjetas existentes */
+.person { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 14px; align-items: start; }
+.person-photo { display: block; }
+.person-photo img { display: block; width: 100px; height: 125px; max-width: 100%; object-fit: contain; border-radius: 5px; }
+.person-bio { min-width: 0; }
+.person-bio > strong { display: block; line-height: 1.35; }
+.person-discipline { display: block; margin-top: 4px; color: var(--teal); font-size: .75rem; }
+.person-bio p { margin: 8px 0 0; font-size: .85rem; line-height: 1.5; }
+.person-credit { display: block; margin-top: 8px; color: var(--muted); font-size: .65rem; line-height: 1.4; }
+.person-credit a, .sources-list a { text-decoration: underline; text-underline-offset: 2px; }
+.sources-panel summary { cursor: pointer; font-weight: 700; color: var(--teal); }
+.sources-list { padding-left: 18px; margin: 14px 0 0; font-size: .78rem; color: var(--muted); overflow-wrap: anywhere; }
+.sources-list li { margin-bottom: 12px; }
+.timeline-item p { margin: 8px 0 0; }
+.timeline-item:last-child { margin-bottom: 0; }
+.topic-list a { display: inline; }
+@media (max-width: 600px) {
+  .person { grid-template-columns: 80px minmax(0, 1fr); gap: 12px; }
+  .person-photo img { width: 80px; height: 100px; }
+}
+
+
+/* Ajuste de las tarjetas al ancho real de su sección */
+.content-grid { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); }
+.content-grid > *, .panel, .people, .person { min-width: 0; }
+.people { grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); }
+.person-bio { overflow-wrap: anywhere; }
+@media (max-width: 950px) {
+  .content-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .panel { padding: 22px; }
+  .people { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 360px) {
+  .person { grid-template-columns: minmax(0, 1fr); }
+  .person-photo img { width: 80px; height: 100px; }
+}
+
+
+/* Galería: obras originales, proporciones conservadas y marco fino. */
+.gallery-filled{min-height:0!important;min-width:0;border:0;border-radius:0;background:transparent;display:flex;align-items:center;justify-content:center;padding:0}
+.gallery-filled>img{display:block;width:auto;height:auto;max-width:100%;max-height:270px;object-fit:contain}
+.gallery-artwork-window{position:relative;overflow:hidden;width:min(100%,var(--art-card-width));aspect-ratio:var(--art-ratio);border:2px solid #b78b36;box-sizing:content-box}
+.gallery-artwork-window img{display:block;position:absolute;width:var(--art-width);max-width:none;height:auto;left:var(--art-left);top:var(--art-top)}
+.gallery-grid{align-items:center}
+
+/* Pies de las obras de la galería. */
+.gallery-filled{margin:0;flex-direction:column;align-self:start;gap:10px}
+.gallery-filled figcaption{width:100%;text-align:center;line-height:1.4;padding:0 8px;box-sizing:border-box}
+.gallery-work-title{display:block;font-size:15px;font-weight:600;color:var(--ink)}
+.gallery-work-author{display:block;margin-top:3px;font-size:13px;color:var(--muted)}
+
+/* Marco de las obras verificadas. */
+.gallery-verified-image>img{border:2px solid #b78b36;box-sizing:border-box}
