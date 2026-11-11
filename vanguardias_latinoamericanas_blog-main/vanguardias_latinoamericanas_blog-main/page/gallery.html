@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galería | Vanguardias Latinoamericanas</title>
+<link rel="icon" type="image/png" href="../aset/img/favicon-16x16.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header><div class="container nav">
+<a class="brand" href="../index.html"><span class="brand-mark">✦</span><span>Vanguardias<br>Latinoamericanas<small>1920–1930</small></span></a>
+<button class="menu-toggle" type="button" aria-label="Abrir menú" aria-controls="site-menu" aria-expanded="false"><span></span><span></span><span></span></button>
+<nav id="site-menu">
+<a href="../index.html">Inicio</a><a href="../index.html#introduccion">Introducción</a><a href="../index.html#paises">Países</a><a href="../index.html#disciplinas">Disciplinas</a><a href="producciones.html">Producciones</a><a class="active" href="gallery.html">Galería</a><a href="../index.html#proyecto">Sobre el proyecto</a>
+</nav></div></header>
+<main><section class="country-hero"><div class="container center"><h1>Galería</h1></div></section>
+        <section class="section" id="mexico">
+            <div class="container">
+                <h2>México</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section alt" id="argentina">
+            <div class="container">
+                <h2>Argentina</h2>
+                <di class="gallery-grid">
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="brasil">
+            <div class="container">
+                <h2>Brasil</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section alt" id="chile">
+            <div class="container">
+                <h2>Chile</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="cuba">
+            <div class="container">
+                <h2>Cuba</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section alt" id="peru">
+            <div class="container">
+                <h2>Perú</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                    <div class="gallery-item"></div>
+                </div>
+            </div>
+        </section>
+</main>
+<script>
+const menuToggle=document.querySelector(".menu-toggle"); const siteMenu=document.querySelector("#site-menu");
+if(menuToggle&&siteMenu){menuToggle.addEventListener("click",()=>{const isOpen=siteMenu.classList.toggle("open");menuToggle.classList.toggle("open",isOpen);menuToggle.setAttribute("aria-expanded",isOpen);menuToggle.setAttribute("aria-label",isOpen?"Cerrar menú":"Abrir menú")});siteMenu.querySelectorAll("a").forEach(link=>link.addEventListener("click",()=>{siteMenu.classList.remove("open");menuToggle.classList.remove("open");menuToggle.setAttribute("aria-expanded","false");menuToggle.setAttribute("aria-label","Abrir menú")}))}
+</script>
+</body></html>
